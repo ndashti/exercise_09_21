@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+ body{
+     box-sizing: border-box;
+     min-height: 100vh; 
+ }
+nav{
+    position: sticky;
+    z-index: 100;
+    background-color: black;
+    color: whitesmoke;
+    direction: rtl;
+    font-size: 1.5rem;
+
+}
+
+.container img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.test{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    background-color: blue;
+    flex-basis: 20%;
+}
+main{
+    width: 100vw;
+    display: flex;
+}
+aside{
+    flex-basis: 30%;
+}
